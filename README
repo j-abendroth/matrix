@@ -1,0 +1,30 @@
+//-----------------------------------------------------------------------------
+// README file for PA2
+// John Abendroth
+// CruzID: jabendro
+// Assignment: PA2
+//-----------------------------------------------------------------------------
+
+----Sparse.c----
+Client Module of the Matrix ADT. Reads in an input file, and builds an array of lists representing matrices A & B, and performs stated calculations on the matrices.
+
+----Matrix.c----
+Matrix ADT implementation file. Utilizes the List ADT as the underlying data structure to store matrix entries. Stores matrix entries as an array of lists, and performs calculations on the given matrices. 
+
+----Matrix.h----
+Header file for Matrix ADT. Contains all prototypes for Matrix.c
+
+----MatrixTest.c----
+Separate Matrix client module built to test the Matrix ADT in isolation. Tries to test the Matrix ADT in a variety of situations that may cause errors. 
+
+----List.c----
+List ADT implementation file. Utilizes a doubly linked list to create the ADT. Modified from PA1 to be a list of generic pointers. 
+
+----List.h----
+Header file for the List ADT. Contains all prototypes for List.c. Modified from PA1 to prototype all List functions with generic pointers instead of ints. 
+
+----ListTest.c----
+Separate List client module built to test the modified List ADT in isolation. Tries to test the List ADT in a variety of situations that may cause errors. 
+
+----Makefile----
+Modified from PA1, compiles and links everything for the Sparse client module as well as test client modules. 
